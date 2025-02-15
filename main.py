@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, flash, url_for, ren
 import urllib.request
 from werkzeug.utils import secure_filename
 from main_detect_fish import obj_model_predict
-from main_classify_fish import getPrediction
 import os
 import numpy as np
 import cv2
