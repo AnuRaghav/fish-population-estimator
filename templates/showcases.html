@@ -65,11 +65,15 @@
   <!-- end layer -->
   <div class="inner">
     <ul data-splitting>
-      <li><a href="{{url_for('home')}}">HOME</a>
+      <li><a href="#">HOME</a>
 
-        </li>
-      <li><a href="#">Why & How it works</a>  </li>
-      <li><a href="#">Predict</a></li>
+      </li>
+  
+    <li><a href="{{ url_for('count_fish_form')}}"><button id="submit" type="submit" name="submit">
+      <strong>Predict now<b></b> <i></i></strong>
+               </button>
+                  </a></li>
+   
      
     </ul>
   </div>
@@ -78,34 +82,10 @@
   <!-- end inner --> 
 </nav>
 <!-- end site-navigation -->
-<div class="social-media">
-  <div class="layer"> </div>
-  <!-- end layer -->
-  <div class="inner">
-    <h5>Social Share </h5>
-    <ul>
-      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-  </div>
-</div>
 <!-- end social-media -->
 <div class="all-cases">
   <div class="layer"> </div>
   <!-- end layer -->
-  <div class="inner">
-    <ul>
-      <li><a href="#">Darkness</a></li>
-      <li><a href="#">Goddes</a></li>
-      <li><a href="#">Employee</a></li>
-      <li><a href="#">Berry</a></li>
-      <li><a href="#">Roosters</a></li>
-      <li><a href="#">Primero</a></li>
-    </ul>
-  </div>
   <!-- end inner --> 
 </div>
 <!-- end all-cases -->
@@ -131,7 +111,7 @@
       </div>
     </div>
     <!-- end hamburger -->
-    <div class="follow-us"> </div>
+
     <!-- end follow-us -->
  
     <!-- end equalizer --> 
@@ -158,7 +138,7 @@
         </button></h1>
       </form>
       <h1><button id="submit" type="submit" name="submit">
-        <strong>Camera<b></b> <i></i></strong>
+        <strong>Camera [Use Phone]<b></b> <i></i></strong>
       </button></h1>
   	</div>
   	<!-- end container -->
@@ -166,30 +146,6 @@
   <!-- end inner -->
   </header>
   <!-- end page-header -->
-
-  <!-- end works -->
-  <section class="clients">
-    <div class="container">
-      <div class="row"> <div class="col-lg-5 wow" data-splitting>
-          <h3 class="section-title">START<br>
-            PREDICTING<br>
-            </h3>
-        </div>
-        <!-- end col-5 -->
-        <div class="col-lg-7">
-          <ul>
-              <li class="reveal-effect masker wow"> <a href="{{url_for('count_fish')}}" class="site-btn"><center><h3>Give Prediction</h3></center><i class="arrow_right"></i></a></li>
-            <li class="reveal-effect masker wow"> <img src="" alt=""> </li>
-              <li class="reveal-effect masker wow"><a href="case-single.html" class="site-btn"><center><h3>Count number of fish</h3></center><i class="arrow_right"></i></a> </li>
-          </ul>
-        </div>
-        <!-- end col-7 --> 
-      </div>
-      <!-- end row --> 
-    </div>
-    <!-- end container --> 
-  </section>
-  <!-- end clients --> 
 </main>
 <!-- end main -->
 

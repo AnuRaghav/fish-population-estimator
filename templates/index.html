@@ -41,42 +41,23 @@
       <li><a href="#">HOME</a>
 
         </li>
-      <li><a href="#">Why & How it works</a>  </li>
-      <li><a href="{{ url_for('count_fish_form')}}">Predict</a></li>
+    
+      <li><a href="{{ url_for('count_fish_form')}}"><button id="submit" type="submit" name="submit">
+        <strong>Predict now<b></b> <i></i></strong>
+                 </button>
+                    </a></li>
      
     </ul>
   </div>
   <!-- end inner --> 
 </nav>
 <!-- end site-navigation -->
-<div class="social-media">
-  <div class="layer"> </div>
-  <!-- end layer -->
-  <div class="inner">
-    <h5>Social Share </h5>
-    <ul>
-      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-      <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-      <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-    </ul>
-  </div>
-</div>
+
 <!-- end social-media -->
 <div class="all-cases">
   <div class="layer"> </div>
   <!-- end layer -->
-  <div class="inner">
-    <ul>
-      <li><a href="#">Darkness</a></li>
-      <li><a href="#">Goddes</a></li>
-      <li><a href="#">Employee</a></li>
-      <li><a href="#">Berry</a></li>
-      <li><a href="#">Roosters</a></li>
-      <li><a href="#">Primero</a></li>
-    </ul>
-  </div>
+  
   <!-- end inner --> 
 </div>
 <!-- end all-cases -->
@@ -132,9 +113,18 @@
     <!-- end gallery-top -->
     <div class="swiper-container gallery-thumbs">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><span>Predict</span> <a href="{{ url_for('count_fish')}}"><button id="submit" type="submit" >Start Predicting</button></a> </div>
-        <div class="swiper-slide"><span>Learn</span> <a href="{{ url_for('count_fish')}}"><button id="submit" type="submit" >Start Predicting</button></a></div>
-        <div class="swiper-slide"><span>Conserve</span> <a href="{{ url_for('count_fish')}}"><button id="submit" type="submit" >Start Predicting</button></a></div>
+        <div class="swiper-slide"><span>Predict</span> <a href="{{ url_for('count_fish_form')}}"><button id="submit" type="submit" name="submit">
+          <strong>Predict now<b></b> <i></i></strong>
+                   </button>
+                      </a></div>
+        <div class="swiper-slide"><span>Learn</span> <a href="{{ url_for('count_fish_form')}}"><button id="submit" type="submit" name="submit">
+          <strong>Predict now<b></b> <i></i></strong>
+                   </button>
+                      </a></div>
+        <div class="swiper-slide"><span>Conserve</span> <a href="{{ url_for('count_fish_form')}}"><button id="submit" type="submit" name="submit">
+          <strong>Predict now<b></b> <i></i></strong>
+                   </button>
+                      </a></div>
       </div>
       <!-- end swiper-wrapper --> 
     </div>
