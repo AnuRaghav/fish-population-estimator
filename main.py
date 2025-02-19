@@ -29,7 +29,7 @@ def count_fish():
         file = request.files['image']
         if file:
             # convert string of image data to uint8
-            nparr = np.fromstring(request.files['image'].read(), np.uint8)
+            nparr = np.frombuffer(request.files['image'].read(), np.uint8)
             # decode image
             img = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
             cv2.imwrite('fish.jpg', img)
